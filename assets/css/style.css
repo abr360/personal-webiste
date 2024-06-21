@@ -61,10 +61,10 @@
     font-family: "Jost", sans-serif;
     color: rgb(7, 60, 83);
     background-color: rgb(140, 198, 246);
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 1rem;
     cursor: pointer;
 
@@ -75,10 +75,11 @@
     height: 100%; 
     display: flex;
     flex-direction: row;
+    padding-top: 4.5rem;
     align-items: center;
     justify-content: center;
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+    font-size: 4rem;
+    line-height: 5.5rem;
     
 }
 
@@ -94,7 +95,7 @@
 }
 
 .home .home-img img {
-    width: 66%;
+    width: 87%;
     height: auto;
 }
 #about{
@@ -279,4 +280,283 @@
     margin-left:0.5rem ;
     cursor: pointer;
 
+}
+
+@media only screen and (max-width: 768px){
+    .main-header{
+        background-color: rgb(32, 33, 35);
+        padding: 0.75rem;
+        display: flex;
+        justify-content: space-between;  
+        width: 50vh; 
+        box-sizing: border-box; 
+        position: fixed;
+     }
+     
+    .main-header a{
+        font-family: "Jost", sans-serif;
+        color: aliceblue;
+        text-decoration: none;
+        font-size:1.3rem;
+        padding:0px 5px;
+       
+    }
+    .home {
+        padding: 0 1.5rem;
+        width: 100vh;
+        background-color: rgb(7, 60, 83);
+    }
+        .home .home-container {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+             width: 100vh;
+            }
+
+                
+    .home .home-container .home-content {
+        width: 90%;
+        height: 100%; 
+        display: flex;
+        flex-direction: row;
+        padding-top: 4.5rem;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.2rem;
+        line-height: 5.5rem;
+        
+    }
+   
+    .home .home-container .home-content h2{
+        font-family: "Jost", sans-serif;
+        color: rgb(255, 255, 255);
+        
+    }
+    .home .home-container .home-content h4{
+        font-family: "Jost", sans-serif;
+        color: rgb(140, 198, 246);
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    .home .home-container .home-content h6{
+        font-family: "Jost", sans-serif;
+        color: rgb(202, 230, 255);
+        text-align: center;
+    }
+    .home-content-sub button{
+        font-family: "Jost", sans-serif;
+        color: rgb(7, 60, 83);
+        background-color: rgb(140, 198, 246);
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        cursor: pointer;
+       margin-left: 5rem;
+    
+    }
+
+    
+    .home .home-img {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height:auto;
+        gap: 1rem;
+    }
+    
+    .home .home-img img {
+        width: 80%;
+        height: auto;
+    }
+    #about{
+        height: 100vh;
+        background-color: rgb(243, 251, 255);
+    
+    }
+    #about .about-container {
+        display: flex;
+        height: 100vh;
+    
+    }
+    .about-container .about-img{
+        padding: 4rem;
+        margin-top: 4rem;
+        margin-left: 2.5rem;
+        width: 70%;
+        height: 100%;
+    }
+    
+    .about-container .about-img img{
+        width: 100%;
+        height: auto;
+    }
+    .about-container .about-content{
+        padding: 4rem;
+        margin-top: 4rem;
+        margin-right: 2.5rem;
+    
+    }
+    .about-container .about-content .head{
+        font-family: "Jost", sans-serif;
+        color:  rgb(7, 60, 83);
+        font-size: 2.5rem;
+        letter-spacing:0.5rem;
+    }
+    .about-container .about-content h2{
+        font-family: "Jost", sans-serif;
+        color:  rgb(7, 60, 83);
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+    .about-container .about-content p{
+        font-family: "Jost", sans-serif;
+        color:  rgb(0, 0, 0);
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .about-container .about-content hr{
+        width: 100%;
+        color: rgb(224, 231, 234);
+        margin-top: 1rem;
+    }
+    
+    .about-container .about-content .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 2rem;
+        
+    }
+    .about-container .about-content .grid-container .grid-item{
+        padding: 0.75rem;
+        border-radius: 10px;
+        font-size: 1.35rem;
+        color:  rgb(50, 50, 50);
+        font-family: "Jost", sans-serif
+    }
+    .about-container .about-content .grid-container .grid-item span{
+        font-family: "Jost", sans-serif;
+        color:  rgb(50, 50, 50);
+        font-size: 1.3rem;
+        
+    }
+    .about-container .about-content .about-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.75rem;
+    }   
+    .about-container .about-content .about-footer .info{
+        font-family: "Jost", sans-serif;
+        font-size: 1.2rem;
+        font-style: italic;
+    }
+    .about-container .about-content .about-footer .place{
+        font-family: "Jost", sans-serif;
+        color: rgb(94, 94, 94);
+        font-style: italic;
+        margin-right: 6rem;
+    }
+    .cnt-container{
+        height: 100vh;
+        background-color: rgb(224, 244, 253);
+    }
+    .cnt-container .cnt-header {
+     padding-top: 7rem;
+    }
+    .cnt-container .cnt-header .head{
+        font-family: "Jost", sans-serif;
+        color:  rgb(7, 60, 83);
+        font-size:  18px;
+        letter-spacing:8px;
+    }
+    .cnt-container .cnt-header  h2{
+        font-family: "Jost", sans-serif;
+        color: rgb(47, 47, 47);
+        font-size:  3rem;
+        margin-top: 1rem;
+    }
+    .cnt-container .cnt-details-container{
+        display: flex;
+    }
+    .cnt-container .cnt-details-container .cnt-details{
+        padding: 4rem;
+        margin-left: 2.5rem;
+        width: 70%;
+        height: 100%;
+    }
+    .cnt-container .cnt-details-container .cnt-details .cnt-item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap:1rem;
+      font-family: "Jost", sans-serif;
+      padding:1rem 1rem;
+    }
+    .cnt-container .cnt-details-container .cnt-details .cnt-item .icon{
+        font-size: 1.5rem;
+        padding:0.75rem 1rem;
+        color: rgb(255, 255, 255);
+        border-radius: 30px;
+        background-color: rgb(7, 60, 83);
+    }
+    .cnt-container .cnt-details-container .cnt-details .cnt-item .cnt-item-text .text{
+        font-family: "Jost", sans-serif;
+        color:  rgb(7, 60, 83);
+        font-size: 1.5rem;
+    }
+    
+    
+    .form-container .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+        margin-right: 7rem;
+    }
+    .form-container .grid-container .grid-item{
+        padding: 0.5rem;
+        
+    }
+    
+    .form-container .grid-container .grid-item .form-input{
+        padding: 1rem 3.75rem;
+        border: 1px solid rgb(7, 60, 83);
+        border-radius: 5px;
+        font-size: 1rem;
+        color: rgb(66, 99, 113);
+         
+    }
+    
+    .form-container  .form-content .msg{
+       margin-left: 0.5rem;
+       font-family: "Jost", sans-serif;
+       padding-top: 1rem;
+       color: rgb(66, 99, 113);
+    
+       border: 1px solid rgb(7, 60, 83);
+       border-radius: 5px;
+      
+       
+    }
+    .form-container  .form-content .btn{
+        font-family: "Jost", sans-serif;
+        color: rgb(207, 233, 255);
+        background-color:  rgb(7, 60, 83);
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left:0.5rem ;
+        cursor: pointer;
+    
+    }
+    
 }
