@@ -57,6 +57,18 @@
     font-family: "Jost", sans-serif;
     color: rgb(202, 230, 255);
 }
+.home-content-sub button{
+    font-family: "Jost", sans-serif;
+    color: rgb(7, 60, 83);
+    background-color: rgb(140, 198, 246);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
 
 .home .home-container .home-content {
     width: 50%;
@@ -146,6 +158,7 @@
 .about-container .about-content .grid-container .grid-item{
     padding: 0.75rem;
     border-radius: 10px;
+    font-size: 1.35rem;
     color:  rgb(50, 50, 50);
     font-family: "Jost", sans-serif
 }
@@ -207,13 +220,13 @@
   align-items: center;
   gap:1rem;
   font-family: "Jost", sans-serif;
-  padding:1rem 0rem;
+  padding:1rem 1rem;
 }
 .cnt-container .cnt-details-container .cnt-details .cnt-item .icon{
     font-size: 1.5rem;
-    padding: 1rem;
+    padding:0.75rem 1rem;
     color: rgb(255, 255, 255);
-    border-radius: 50%;
+    border-radius: 30px;
     background-color: rgb(7, 60, 83);
 }
 .cnt-container .cnt-details-container .cnt-details .cnt-item .cnt-item-text .text{
@@ -223,5 +236,47 @@
 }
 
 
+.form-container .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    margin-right: 7rem;
+}
+.form-container .grid-container .grid-item{
+    padding: 0.5rem;
+    
+}
 
+.form-container .grid-container .grid-item .form-input{
+    padding: 1rem 3.75rem;
+    border: 1px solid rgb(7, 60, 83);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(66, 99, 113);
+     
+}
 
+.form-container  .form-content .msg{
+   margin-left: 0.5rem;
+   font-family: "Jost", sans-serif;
+   padding-top: 1rem;
+   color: rgb(66, 99, 113);
+
+   border: 1px solid rgb(7, 60, 83);
+   border-radius: 5px;
+  
+   
+}
+.form-container  .form-content .btn{
+    font-family: "Jost", sans-serif;
+    color: rgb(207, 233, 255);
+    background-color:  rgb(7, 60, 83);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left:0.5rem ;
+    cursor: pointer;
+
+}
