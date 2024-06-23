@@ -182,11 +182,11 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 0.75rem;
-    gap: 6rem;
+     gap: 1rem;
 }
 .about-container .about-content .about-footer .info{
     font-family: "Jost", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: italic;
 }
 .about-container .about-content .about-footer .place{
