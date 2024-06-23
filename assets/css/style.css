@@ -385,20 +385,24 @@
         height: auto;
     }
     #about{
-        height: 200vh;
+        height: 190vh;
         background-color: rgb(243, 251, 255);
-    
+        width: 100%;
     }
     #about .about-container {
         display: flex;
         flex-direction: column;
         height: 100vh;
     
+      
+        
+    
     }
     .about-container .about-img{
        padding: 1rem;
         width: 75%;
         height: auto;
+        margin-left: 3rem;
     }
     
     .about-container .about-img img{
@@ -406,9 +410,11 @@
         height: auto;
     }
     .about-container .about-content{
-        padding: 1.5rem;
-        margin-top: 0.5rem;
-
+        padding-left: 3rem;
+        margin-top: 0.25rem;
+        padding-right: 0rem;
+        height: auto;
+        
     
     }
     .about-container .about-content .head{
@@ -440,6 +446,7 @@
         grid-template-columns: repeat(2, 1fr);
         margin-top: 2rem;
         
+        
     }
     .about-container .about-content .grid-container .grid-item{
         padding: 0.50rem;
@@ -464,6 +471,11 @@
         gap: 1rem;
         
     }   
+
+        .about-footer-img{
+            margin-right: 5rem;
+            padding-left: 1.75rem;
+        }
     .about-container .about-content .about-footer .about-footer-s2{
         display: flex;
         flex-direction: column;
@@ -471,6 +483,7 @@
         justify-content: space-between;
         margin-top: 0.75rem;
         gap: 0rem;
+      
     }
     .about-container .about-content .about-footer .info{
         font-family: "Jost", sans-serif;
@@ -482,6 +495,7 @@
         font-family: "Jost", sans-serif;
         color: rgb(94, 94, 94);
         font-style: italic;
+    
         
     }
     .cnt-container{
