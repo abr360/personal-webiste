@@ -1,31 +1,11 @@
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyxDjKRisupv5SUOX3c3w_RHUVeSNQR2h31CGYQNBtTUe4ZJ3DElB_gfcPpredyejiV/exec'
 
-    function postToGoogle() {
-      var field1 = $("#Name").val();
-      var field2 = $("#Email").val();
-      var field3 = $("#Phone").val();
-      var field4 = $("#Subject").val();
-      var  field5= $("#Message").val();
+const form = document.forms['form-content']
 
-      $.ajax({
-        url: "{https://docs.google.com/forms/u/0/d/e/1FAIpQLSfgUKyanFJcKywWPn0TN8d5kVZyNXx-et3s0jbu2wEpy9Itdw/formResponse}",
-          
-        //add your google form generated numbers below which are also the 'names' of your inputs     
-        data: {
-          "entry.1263775261": field1,
-          "entry.1839201696": field2,
-          "entry.205693829": field3,
-          "entry.875492108": field4,
-          "entry.941027105": field5
-          
-        },
-        type: "POST",
-        dataType: "xml",
-        success: function (d) {
-          $('#form-content').trigger('reset');
-        },
-        error: function (x, y, z) {
-          $('#form-content').trigger('reset');
-        }
-      });
-      return false;
-    }
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your form is submitted successfully." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})

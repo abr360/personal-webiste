@@ -113,22 +113,21 @@
             </div>
         </div>
         <div class="form-container">
-             <form action="" class="form-content">
+             <form action="" class="form-content" name="form-content">
                 <div class="grid-container">
-                    <div class="grid-item"><input type="text" placeholder="Your Name" class="form-input"></div>
-                    <div class="grid-item"><input type="email" placeholder="Your Email" class="form-input"></div>
-                    <div class="grid-item"><input type="tel" placeholder="Your Phone" class="form-input"></div>
-                    <div class="grid-item"><input type="text" placeholder="Your subject" class="form-input"></div>
+                    <div class="grid-item"><input type="text" placeholder="Your Name" class="form-input" name="name"></div>
+                    <div class="grid-item"><input type="email" placeholder="Your Email" class="form-input" name="email"></div>
+                    <div class="grid-item"><input type="tel" placeholder="Your Phone" class="form-input" name="Phone"></div>
+                    <div class="grid-item"><input type="text" placeholder="Your Subject" class="form-input" name="Subject"></div>
                 </div>
-                <textarea class="msg" cols="65" rows="8">
-                    Start writing message here
-                </textarea>
+                <textarea class="msg" cols="65" rows="8" placeholder="Start writing message here" name="message"></textarea>
+
                 <br>
                 <button class="btn">Submit Now</button>
                 
                 </form>
         </div>
-     
+     <script src="/form.js"></script>
 </div>
 </body>
 </html>
