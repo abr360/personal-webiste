@@ -286,7 +286,7 @@
 
 }
 
-/* @media only screen and (max-width: 718px){
+@media only screen and (max-width: 718px){
     html, body {
         overflow-x: hidden;
         height: 100%;
@@ -326,13 +326,9 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        padding-top: 0.5rem;
+        padding-top: 7rem;
         font-size: 2.2rem;
-        line-height: 3.5rem;
-     
-        
-
-        
+        line-height: 3.5rem;  
     }
    
     .home .home-container .home-content h2{
@@ -360,7 +356,7 @@
         border: none;
         border-radius: 5px;
         font-size: 1.2rem;
-        margin-top: 1rem;
+        margin-top: 1.3rem;
         cursor: pointer;
         margin-left: 5rem;
     
@@ -372,7 +368,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 115%;
         height:auto;
     }
     
@@ -495,7 +491,7 @@
         
     }
     .cnt-container{
-        height: 150vh;
+        height: 154vh;
         background-color: rgb(224, 244, 253);
     }
     .cnt-container .cnt-header {
@@ -565,14 +561,16 @@
          
     }
     .form-container  .form-content .msg{
-       margin-left: 0.5rem;
-       font-family: "Jost", sans-serif;
-       padding-top: 1rem;
-       color: rgb(66, 99, 113);
-       border: 1px solid rgb(7, 60, 83);
-       border-radius: 5px;
-       padding-bottom: 5rem;
-       padding-left: 32.5rem;
+        margin-left: 2rem;
+        font-family: "Jost", sans-serif;
+        padding-top: 1.2rem;
+        color: rgb(66, 99, 113);
+        border: 1px solid rgb(7, 60, 83);
+        border-radius: 5px;
+        width: 85.5%;
+        font-size: 1rem;
+        padding-bottom: 0rem;
+        padding-left: 2rem;
        
        
     }
@@ -590,4 +588,4 @@
     
     }
     
-} */
+} 
